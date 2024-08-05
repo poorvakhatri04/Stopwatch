@@ -11,12 +11,11 @@
 </head>
 <body>
     <div class="stopwatch">
-        <h1>00:00:00</h1>
+        <h1 id="displayTime">00:00:00</h1>
         <div class="buttons">
-
-            <span class="material-symbols-outlined">stop_circle</span>
-            <span class="material-symbols-outlined">play_circle</span>
-            <span class="material-symbols-outlined">restart_alt</span>
+            <span class="material-symbols-outlined" onclick="watchStop()">stop_circle</span>
+            <span class="material-symbols-outlined" onclick="watchStart()">play_circle</span>
+            <span class="material-symbols-outlined" onclick="watchReset()">restart_alt</span>
         </div>
     </div>
     <script src="script.js"></script>
